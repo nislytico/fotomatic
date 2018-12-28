@@ -278,9 +278,14 @@ header .mobile {
 
   @media only screen and (max-width: 450px)
   {
-    ,.feature .image-container {
+    .feature .image-container {
       display: flex;
       flex-flow: column;
+    }
+
+    #features-section {
+      flex-flow: column;
+      padding: 0;
     }
   }
 }
@@ -349,11 +354,6 @@ header .mobile {
 {
   #filters-section .extra {
     display: none;
-  }
-#fetures-section {
-  flex-flow: column;
-}
-
   }
 }
 
